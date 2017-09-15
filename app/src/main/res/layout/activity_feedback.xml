@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <include
+        android:id="@+id/top_include"
+        layout="@layout/top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></include>
+    <View
+        style="@style/view_kuan"
+        />
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/viewba"
+        android:orientation="vertical"
+        >
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="305px"
+            android:layout_marginLeft="20px"
+            >
+            <TextView
+                android:id="@+id/tv_feedback"
+                android:textColor="#666666"
+                android:textSize="24px"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="30px"
+                android:text="请写下您的宝贵建议吧"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:textSize="24px"
+                android:background="@null"
+                android:layout_marginLeft="20px"
+               android:layout_below="@id/tv_feedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </com.zhy.autolayout.AutoRelativeLayout>
+        <TextView
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:textSize="24px"
+            android:text="手机/邮箱"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:paddingLeft="10px"
+            android:hint="请输入你的手机号/邮箱"
+            android:background="@drawable/shape_corner"
+            android:layout_marginLeft="20px"
+            android:textSize="24px"
+            android:layout_marginTop="20px"
+            android:layout_width="500px"
+            android:layout_height="40px"/>
+        <Button
+
+            android:textColor="#ffffff"
+            android:textSize="28px"
+            android:text="提交"
+            android:background="@drawable/but_yuanjiao"
+            android:layout_marginLeft="110px"
+            android:layout_marginTop="100px"
+            android:layout_width="500px"
+            android:layout_height="60px"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>
+
+

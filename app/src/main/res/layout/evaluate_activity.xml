@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+    <include
+
+        android:id="@+id/evaluate_titl"
+        layout="@layout/home_title_double"
+        ></include>
+
+    <TextView
+        android:id="@+id/evaluate_hengxiang"
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="#f7f7f7"
+        android:layout_below="@id/evaluate_titl"
+        android:layout_marginTop="32px"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/evaluate_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/evaluate_hengxiang"
+        >
+    </android.support.v7.widget.RecyclerView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/evaluate_recycler2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/evaluate_recycler"
+        android:layout_marginTop="36px"
+        >
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f4f7f8"
+        android:layout_below="@id/evaluate_recycler2"
+        />
+</RelativeLayout>

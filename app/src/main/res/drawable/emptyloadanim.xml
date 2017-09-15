@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">
+    <item android:drawable="@drawable/emptyload" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload1" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload2" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload3" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload4" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload5" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload6" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload7" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload8" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload9" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload10" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload11" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload12" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload13" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload14" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload15" android:duration="100"></item>
+    <item android:drawable="@drawable/emptyload16" android:duration="100"></item>
+    <!--<item android:drawable="@drawable/emptyshop" android:duration="100"></item>-->
+</animation-list>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/dibu">
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:src="@drawable/timg"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="25px"
+        />
+
+    <TextView
+        android:id="@+id/logistic_express_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="承运公司：天天快递"
+        android:layout_marginLeft="142px"
+        android:layout_marginTop="43px"
+        android:textSize="24px"
+        android:textColor="#2a2a2a"
+        />
+
+        <TextView
+            android:id="@+id/logistic_express_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="运单编号：20170708"
+            android:layout_marginLeft="142px"
+            android:layout_marginTop="87px"
+            android:textSize="24px"
+            android:textColor="#2a2a2a"
+            />
+    </RelativeLayout>
+</RelativeLayout>

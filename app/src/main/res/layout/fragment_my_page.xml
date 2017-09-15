@@ -1,0 +1,347 @@
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.zhy.autolayout.AutoRelativeLayout
+                android:id="@+id/autulayout"
+                android:layout_width="match_parent"
+                android:layout_height="430px"
+                android:background="@drawable/bj">
+
+                <ImageView
+                    android:id="@+id/img_lingdang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20px"
+                    android:layout_marginTop="55px"
+                    android:src="@drawable/tell_xiaoxi" />
+
+                <Button
+                    android:id="@+id/but_login"
+                    android:layout_width="150px"
+                    android:layout_height="50px"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="235px"
+                    android:textSize="24px"
+                    android:background="@drawable/but_tming_yj"
+                    android:text="登录/注册"
+                    android:textColor="@color/white" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circimg"
+                    android:layout_width="145px"
+                    android:layout_height="145px"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/touxiang"
+                    android:visibility="gone"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/circimg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="6px"
+                    android:text="邻家小屋"
+                    android:textColor="@color/white"
+                    android:textSize="26px"
+                    android:visibility="gone" />
+            </com.zhy.autolayout.AutoRelativeLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="680px"
+                android:layout_height="100px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="380px"
+                android:background="@drawable/juxing">
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ar_quanbu"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_qbu"
+                        style="@style/Image_Mypage"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/all" />
+
+                    <TextView
+                        android:id="@+id/t1"
+                        style="@style/Tv_show"
+                        android:layout_below="@id/img_qbu"
+                        android:layout_marginTop="38px"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/qubu" />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ar_daifahuo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_daifahuo"
+                        style="@style/Image_Mypage"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/fahuo" />
+
+                    <TextView
+                        android:id="@+id/t2"
+                        android:layout_below="@id/img_daifahuo"
+                        style="@style/Tv_show"
+                        android:layout_marginTop="38px"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/daifahou" />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ar_daishouahuo"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:id="@+id/img_daishouhuo"
+                        style="@style/Image_Mypage"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/all" />
+
+                    <TextView
+                        android:id="@+id/t3"
+                        android:layout_below="@id/img_daishouhuo"
+                        style="@style/Tv_show"
+                        android:layout_marginTop="38px"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/daishouhuo" />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ar_daipingjia"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_pingjia"
+                        style="@style/Image_Mypage"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/evaluate" />
+
+                    <TextView
+                        android:id="@+id/t4"
+                        android:layout_below="@id/img_pingjia"
+                        style="@style/Tv_show"
+                        android:layout_marginTop="38px"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/daipingjia" />
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/ar_shouhou"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/img_shouhou"
+                        style="@style/Image_Mypage"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/all"
+                        />
+
+                    <TextView
+                        android:layout_below="@id/img_shouhou"
+                        style="@style/Tv_show"
+                        android:layout_marginTop="38px"
+                        android:id="@+id/t5"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/shouhou" />
+                </com.zhy.autolayout.AutoRelativeLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/autulayout"
+                android:orientation="vertical">
+
+
+                <com.zhy.autolayout.AutoLinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.zhy.autolayout.AutoRelativeLayout
+                        style="@style/autu_100"
+                        android:layout_marginTop="40px">
+
+                        <com.zhy.autolayout.AutoRelativeLayout
+                            android:id="@+id/autolayout_mycollect"
+                            style="@style/autola_mypage_item">
+
+                            <ImageView
+                                android:id="@+id/img_shoucang"
+                                style="@style/Image_Mypage"
+                                android:background="@drawable/shoucang" />
+
+                            <TextView
+                                android:id="@+id/tv_shoucang"
+                                style="@style/Textview_Mypage"
+                                android:textColor="#2a2a2a"
+                                android:layout_toRightOf="@id/img_shoucang"
+                                android:text="@string/shoucnag" />
+
+                            <ImageView style="@style/img_mypage_huitui" />
+                        </com.zhy.autolayout.AutoRelativeLayout>
+
+                    </com.zhy.autolayout.AutoRelativeLayout>
+
+                    <View style="@style/view" />
+                </com.zhy.autolayout.AutoLinearLayout>
+
+                <com.zhy.autolayout.AutoRelativeLayout style="@style/autu_100">
+
+                    <com.zhy.autolayout.AutoRelativeLayout
+                        android:id="@+id/autolayout_newaddress"
+                        style="@style/autola_mypage_item">
+
+                        <ImageView
+                            android:id="@+id/img_dizhi"
+                            style="@style/Image_Mypage"
+                            android:background="@drawable/dizhi" />
+
+                        <TextView
+                            android:id="@+id/tv_dizhi"
+                            style="@style/Textview_Mypage"
+                            android:layout_toRightOf="@id/img_dizhi"
+                            android:textColor="#2a2a2a"
+                            android:text="@string/shouhuo" />
+
+                        <ImageView style="@style/img_mypage_huitui" />
+                    </com.zhy.autolayout.AutoRelativeLayout>
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <View style="@style/view" />
+
+                <com.zhy.autolayout.AutoRelativeLayout
+                    android:id="@+id/autola_setting"
+                    style="@style/autu_100">
+
+                    <com.zhy.autolayout.AutoRelativeLayout style="@style/autola_mypage_item">
+
+                        <ImageView
+                            android:id="@+id/img_setting"
+                            style="@style/Image_Mypage"
+                            android:background="@drawable/setting" />
+
+                        <TextView
+                            android:id="@+id/tv_setting"
+                            style="@style/Textview_Mypage"
+                            android:layout_toRightOf="@id/img_setting"
+                            android:text="@string/setting"
+                            android:textColor="#2a2a2a"/>
+
+                        <ImageView style="@style/img_mypage_huitui" />
+                    </com.zhy.autolayout.AutoRelativeLayout>
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <View style="@style/view" />
+
+                <com.zhy.autolayout.AutoRelativeLayout style="@style/autu_100">
+
+                    <com.zhy.autolayout.AutoRelativeLayout
+                        android:id="@+id/autolayout_aboutwe"
+                        style="@style/autola_mypage_item">
+
+                        <ImageView
+                            android:id="@+id/img_my"
+                            style="@style/Image_Mypage"
+                            android:background="@drawable/we" />
+
+                        <TextView
+                            android:id="@+id/tv_our"
+                            style="@style/Textview_Mypage"
+                            android:layout_toRightOf="@id/img_my"
+                            android:textColor="#2a2a2a"
+                            android:text="@string/we" />
+
+                        <ImageView style="@style/img_mypage_huitui" />
+                    </com.zhy.autolayout.AutoRelativeLayout>
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <View style="@style/view_kuan" />
+
+                <com.zhy.autolayout.AutoRelativeLayout style="@style/autu_100">
+
+                    <com.zhy.autolayout.AutoRelativeLayout style="@style/autola_mypage_item">
+
+                        <ImageView
+                            android:id="@+id/img_fenxiang"
+                            style="@style/Image_Mypage"
+                            android:background="@drawable/share" />
+
+                        <TextView
+                            android:id="@+id/tv_share"
+                            style="@style/Textview_Mypage"
+                            android:layout_toRightOf="@id/img_fenxiang"
+                            android:textColor="#2a2a2a"
+                            android:text="@string/fenxiang" />
+
+                        <ImageView style="@style/img_mypage_huitui" />
+                    </com.zhy.autolayout.AutoRelativeLayout>
+                </com.zhy.autolayout.AutoRelativeLayout>
+
+                <View style="@style/view" />
+
+                <com.zhy.autolayout.AutoRelativeLayout style="@style/autu_100">
+
+                    <com.zhy.autolayout.AutoRelativeLayout style="@style/autola_mypage_item">
+
+                        <ImageView
+                            android:id="@+id/img_dafen"
+                            style="@style/Image_Mypage"
+                            android:background="@drawable/dafen" />
+
+                        <TextView
+                            android:id="@+id/tv_pingjia"
+                            style="@style/Textview_Mypage"
+                            android:layout_toRightOf="@id/img_dafen"
+                            android:textColor="#2a2a2a"
+                            android:text="@string/dafen" />
+
+                        <ImageView style="@style/img_mypage_huitui" />
+                    </com.zhy.autolayout.AutoRelativeLayout>
+                </com.zhy.autolayout.AutoRelativeLayout>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </ScrollView>
+
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

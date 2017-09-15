@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="196px"
+                android:background="#f7f7f7">
+    <CheckBox
+        android:id="@+id/s_adapter_cb_CheckChild"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20px"
+        android:button="@drawable/shoppingcar_btn_selector"/>
+
+    <ImageView
+        android:id="@+id/s_adapter_iv_Goods"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="28px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="27px"
+        android:layout_toRightOf="@+id/s_adapter_cb_CheckChild"
+        android:background="@drawable/a17"
+        />
+
+    <RelativeLayout
+        android:id="@+id/s_adapter_rl_GoodInfo"
+        android:layout_width="match_parent"
+        android:layout_height="196px"
+        android:layout_toRightOf="@+id/s_adapter_iv_Goods">
+
+        <TextView
+            android:id="@+id/s_adapter_tv_GoodsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="30px"
+            android:lineSpacingExtra="10px"
+            android:text="每个人都有潜在的能量，只是很容易被习惯所掩盖， 被时间所迷离,被惰性所消磨."
+            android:textColor="#2a2a2a"
+            android:textSize="22px"
+            />
+
+        <TextView
+            android:id="@+id/s_adapter_tv_GoodsParam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s_adapter_tv_GoodsName"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="20px"
+            android:text="化妆品净含量：200g"
+            android:textColor="#666666"
+            android:textSize="20px"
+            />
+
+        <TextView
+            android:id="@+id/s_adapter_tv_GoodsPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s_adapter_tv_GoodsParam"
+            android:layout_marginLeft="25px"
+            android:layout_marginTop="12px"
+            android:text="￥0.0"
+            android:textColor="#bb0c0c"
+            android:textSize="22px"/>
+
+        <TextView
+            android:id="@+id/s_adapter_tv_discount_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/s_adapter_tv_GoodsParam"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/s_adapter_tv_GoodsPrice"
+            android:layout_marginTop="12px"
+            android:text=""
+            android:textColor="#808080"
+            android:textSize="22px"/>
+
+        <TextView
+            android:id="@+id/s_adapter_tv_GoodsNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="42px"
+            android:layout_marginRight="20px"
+            android:text="X1"
+            android:textColor="#666666"
+            android:textSize="18px"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/s_adapter_ll_EditStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/s_adapter_iv_Goods"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="440px"
+            android:layout_height="40px"
+            android:layout_marginLeft="46px"
+            android:layout_marginTop="48px"
+            android:background="@drawable/dibu"
+            >
+
+            <TextView
+                android:id="@+id/s_adapter_iv_Reduce"
+                android:layout_width="130px"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="-"/>
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="20px"
+                android:layout_gravity="center_vertical"
+                android:background="#eeeeee"
+                />
+
+            <TextView
+                android:id="@+id/s_adapter_tv_GoodsNum2"
+                android:layout_width="178px"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#2a2a2a"
+                android:textSize="14px"/>
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="20px"
+                android:layout_gravity="center_vertical"
+                android:background="#eeeeee"
+                />
+            <TextView
+                android:id="@+id/s_adapter_iv_Add"
+                android:layout_width="130px"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="+"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/s_adapter_tv_GoodsParam2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="46px"
+            android:layout_marginTop="14px"
+            android:text="化妆品净含量：200g"
+            android:textSize="20px"
+            android:textColor="#666666"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

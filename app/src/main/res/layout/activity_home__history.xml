@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/TranslucentTheme"
+    android:orientation="vertical"
+    tools:context="com.ssmk.module.home.view.Home_History_activity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/history_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/nfc_back"
+        android:layout_marginTop="50px">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32px"
+                android:textColor="@color/textcolor_black"
+                android:text="历史记录"
+                android:gravity="center"
+                android:id="@+id/history_tv_title"
+                />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/history_recycler"
+    android:layout_marginTop="6px"
+    >
+</android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

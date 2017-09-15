@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/top_include"
+        layout="@layout/top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></include>
+
+    <View style="@style/view_kuan"
+        android:layout_marginTop="10px"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_mymessa_tou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="123px"
+                android:text="头像 :"
+                android:textColor="#2a2a2a"
+                android:textSize="26px" />
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_mymessa_tou"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="55px"
+                >
+
+                <TextView
+                    android:id="@+id/tv_mymessa_nic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_mymessa_tou"
+                    android:layout_marginBottom="35px"
+                    android:text="昵称 :  "
+                    android:textColor="#2a2a2a"
+                    android:textSize="26px"  />
+
+                <EditText
+                    android:id="@+id/ed_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_mymessa_tou"
+                    android:layout_marginBottom="35px"
+                    android:background="@null"
+                    android:textSize="26px"
+                    android:layout_marginLeft="10px"
+                    android:textColor="#2a2a2a"
+                    android:hint="Y153**6912" />
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_mymessa_tou"
+                    android:layout_marginBottom="35px"
+                    android:textSize="26px"
+                    android:layout_marginLeft="10px"
+                    android:textColor="#2a2a2a" />
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_mymess_title"
+                android:layout_width="110px"
+                android:layout_height="110px"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20px"
+                android:layout_marginTop="29px"
+                android:src="@drawable/logo1111" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <View
+            android:layout_width="680px"
+            android:layout_height="1px"
+            android:layout_gravity="center"
+            android:background="@color/viewname" />
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="35px"
+                android:layout_marginBottom="35px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/genter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="性别 :"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#2a2a2a"
+                    android:textSize="26px"  />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="26px"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_girl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="女" />
+
+                    <RadioButton
+                        android:id="@+id/rb_boy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40px"
+                        android:text="男" />
+                </RadioGroup>
+            </com.zhy.autolayout.AutoLinearLayout>
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="680px"
+            android:layout_height="1px"
+            android:layout_gravity="center"
+            android:background="@color/viewname" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px">
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35px"
+                android:layout_marginBottom="35px">
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="邮箱 :  "
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#2a2a2a"
+                    android:textSize="26px"  />
+
+                <EditText
+                    android:id="@+id/ed_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10px"
+                    android:background="@null"
+                    android:hint="13515352552@163.com"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#2a2a2a"
+                    android:textSize="26px" />
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:textSize="26px"
+                    android:layout_marginLeft="10px"
+                    android:textColor="#2a2a2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <View
+            android:layout_width="680px"
+            android:layout_height="1px"
+            android:layout_gravity="center"
+            android:background="@color/viewname" />
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="35px"
+            android:layout_marginBottom="35px">
+
+            <TextView
+                android:id="@+id/tv_birth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35px"
+                android:textColor="#2a2a2a"
+                android:layout_centerVertical="true"
+                android:textSize="26px"
+                android:text="生日 :" />
+        </com.zhy.autolayout.AutoRelativeLayout>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/back_login"
+            android:layout_width="680px"
+            android:layout_height="64px"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="退出登录"
+            android:textSize="24px"
+            android:textColor="#2a2a2a"
+            android:layout_marginBottom="84px"
+            android:background="@drawable/register_button"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

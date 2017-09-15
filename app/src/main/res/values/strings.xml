@@ -1,0 +1,134 @@
+<resources>
+    <drawable name="clr_normal">#000</drawable>
+    <drawable name="clr_pressed">#E05D4D</drawable>
+   
+   
+    <string name="app_name">搜搜猿</string>
+    <string name="edit">编辑</string>
+    <string name="shop_title">购物车</string>
+    <string name="count_total">总计：</string>
+    <string name="count_money">￥0.0</string>
+    <string name="count_goods">去结算</string>
+    <string name="affirm_order">确认订单</string>
+    <string name="all_order">全部订单</string>
+    <string name="select_address">选择收货地址</string>
+    <string name="cancel">取消</string>
+
+    <string name="no_mood">我不想买了</string>
+    <string name="info_error">信息填写错误，重新拍</string>
+    <string name="other_reason">其他原因</string>
+    <string name="to_pay">去支付</string>
+    <string name="select_pay">选择支付方式</string>
+    <string name="alipay">支付宝</string>
+    <string name="weixin">微信</string>
+    <string name="confirm">确定</string>
+
+    <string name="checkout_order_details">查看详情</string>
+    <string name="order_details">订单详情</string>
+    <string name="should_money">应付金额：</string>
+    <string name="goods_money">商品金额：</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="submit_order">提交订单</string>
+    <string name="cheak_logistics">查看物流</string>
+
+    <string name="sure_receivegoods">确认收货</string>
+    <string name="logistics_details">物流详情</string>
+    <string name="apply_refund">申请退款</string>
+    <string name="logistics_follow">物流跟踪</string>
+    <string name="refund">退款</string>
+    <string name="collect">收藏</string>
+    <string name="delete">删除</string>
+    <string name="only_refund">仅退款</string>
+    <string name="no_received">未收到货或与卖家协商</string>
+    <string name="sales_refund">退货退款</string>
+    <string name="refund_money">退款金额</string>
+    <string name="refund_success">退款成功</string>
+    <string name="refund_reason">请在此填写退款原因</string>
+    <string name="goods_state">货物状态</string>
+    <string name="goods_reason">货物原因</string>
+    <string name="have_arrived">已到货</string>
+    <string name="no_arrived">未到货</string>
+    <string name="goods_info">商品信息</string>
+    <string name="commit">提交</string>
+    <string name="evaluate">评价</string>
+    <string name="good_valuation">好评</string>
+    <string name="mid_valuation">中评</string>
+    <string name="bad_valuation">差评</string>
+    <string name="commit_valuation">提交评价</string>
+    <string name="have_received">已收到货退款时需退还收到货物</string>
+    <string name="send_code">发送验证码</string>
+    <string name="next_step">下一步</string>
+    <string name="empty_shop">购物车空空如也</string>
+    <string name="go_home">去首页看看</string>
+    <string name="network_failed">网络加载失败</string>
+    <string name="reload">重新加载</string>
+    <string name="query_history">查询历史</string>
+    <string name="help_mid">打开软件点击NFC防伪按钮,将手机后背的NFC感应区靠近商品防伪芯片大约2cm处听到“嘟声后，即可查看到防伪验证结果</string>
+
+    <string name="join_topbar">我要合作</string>
+    <string name="company_name">公司名称</string>
+    <string name="join_input_companyname">请输入公司名称</string>
+    <string name="contact">联系人</string>
+    <string name="contact_way">联系方式</string>
+    <string name="securitycode">验证码</string>
+    <string name="join_input_contact">请输入联系人</string>
+    <string name="join_input_contactway">请输入联系方式</string>
+    <string name="join_input_securitycode">请输入验证码</string>
+    <string name="gain_securitycode">获取验证码</string>
+
+    <string name="detail_topbar">妖精的口袋</string>
+    <string name="success_merchant">妖精的口袋商城</string>
+    <string name="relation">请留下您的联系方式 ,方便我们商务人员将与您联系</string>
+    <string name="relation2">或者直接拨打 010-80483290 期待与您合作</string>
+    <string name="sucess_name">[免税]妖精的口袋P草间弥生夏</string>
+    <string name="sucess_desc">2017新款甜美系</string>
+
+    <string name="immediately_buy">立即购买</string>
+    <string name="contact_merchant">联系商家</string>
+    <string name="merchant_dialog_qq">1003553555</string>
+    <string name="merchant_dialog_phone">010-244422</string>
+    <string name="sucess_price">￥1,600</string>
+
+
+    <string name="home">首页</string>
+    <string name="merchant">商家</string>
+    <string name="shoppingcar">购物车</string>
+    <string name="my">我的</string>
+    <string name="shoucnag">我的收藏</string>
+    <string name="shouhuo">收货地址</string>
+    <string name="setting">设置</string>
+    <string name="we">关于我们</string>
+    <string name="fenxiang">分享给好友</string>
+    <string name="dafen">打分评价</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="myhome_fragment_shop">商城</string>
+    <string name="myhome_fragment_NFC">NFC查询</string>
+    <string name="myhome_fragment_Zxing">二维码查询</string>
+    <string name="myhome_fragment_query">查询历史</string>
+    <string name="myhome_fragment_select">精选好货</string>
+    <string name="fragment_mh_r_item_rv_item_tx">Dior2017包包</string>
+    <string name="fragment_mh_r_item_four_tx_top">头条资讯</string>
+    <string name="fragment_mh_r_item_four_rv_item_tx">啊实打实大声道按时大大手打撒大声地夏天如何清洗包包按时大大实打实大声道的科尼塞克大师课大赛</string>
+    <string name="fragment_mh_r_item_four_rv_item_tx_time">2017-5-15</string>
+
+
+    <string name="qubu">全部</string>
+    <string name="daifahou">待发货</string>
+    <string name="daishouhuo">待收货</string>
+
+    <string name="daipingjia">待评价</string>
+    <string name="shouhou">售后</string>
+    <string name="zhubao">珠宝</string>
+    <string name="bear">酒</string>
+    <string name="tea">茶</string>
+    <string name="smoke">烟</string>
+    <string name="search">请输入商家/商品名称</string>
+    <string name="join">我要合作</string>
+    <string name="title_activity_login_main_">Login_main_Activity</string>
+
+
+</resources>

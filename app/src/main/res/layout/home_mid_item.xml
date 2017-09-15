@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingRight="20px"
+              android:paddingLeft="30px">
+
+<ImageView
+    android:layout_width="150px"
+    android:layout_height="150px"
+    android:id="@+id/home_mid_item_iv"
+    android:src="@drawable/a2222"/>
+
+    <TextView
+        android:layout_width="150px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22px"
+        android:layout_gravity="center"
+        android:text="Dior2017包包sadsadsadsadsadsadsad"
+        android:textSize="20px"
+        android:maxLines="2"
+        android:lineSpacingMultiplier="1.4"
+        android:textColor="#2a2a2a"
+        android:id="@+id/home_mid_item_tvname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_mid_item_tvmoney"
+        android:textSize="22px"
+        android:textColor="#2a2a2a"
+        android:layout_marginTop="12px"
+        android:text="¥9851"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_mid_item_tvoldmoney"
+        android:textSize="18px"
+        android:textColor="#cccccc"
+        android:text="¥9999"
+        android:layout_gravity="center"
+        android:layout_marginTop="8px"
+        />
+
+</LinearLayout>

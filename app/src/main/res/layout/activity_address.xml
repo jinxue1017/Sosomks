@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ssmk.module.shoppingcar.AddressActivity">
+
+    <include
+        android:id="@+id/top_include"
+        layout="@layout/top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_include"
+        android:background="#f7f7f7"
+        android:gravity="right"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/shop_address_recycler"
+            android:layout_width="679px"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="20px"
+            ></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/add_address"
+            android:layout_width="680px"
+            android:layout_height="70px"
+            android:layout_centerInParent="true"
+            android:background="@drawable/black_btn"
+            android:text="添加新地址"
+            android:textColor="#ffffff"
+            android:textSize="28px"
+            />
+    </RelativeLayout>
+</RelativeLayout>

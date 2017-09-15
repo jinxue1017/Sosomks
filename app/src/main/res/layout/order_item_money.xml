@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="680px"
+        android:layout_height="116px"
+        android:layout_marginLeft="20px"
+        android:background="@drawable/dibu">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:text="@string/goods_money"
+            android:textColor="#2a2a2a"
+            android:textSize="24px"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/order_goods_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,636.00"
+            android:textColor="#2a2a2a"
+            android:textSize="22px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20px"
+            />
+    </RelativeLayout>
+</RelativeLayout>

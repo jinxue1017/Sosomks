@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:background="@color/white">
+
+    <CheckBox
+        android:id="@+id/s_adapter_group_cbCheckGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20px"
+        android:paddingBottom="26px"
+        android:paddingTop="26px"
+        android:button="@drawable/shoppingcar_btn_selector"/>
+
+
+    <TextView
+        android:id="@+id/s_adapter_group_tvShopNameGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20px"
+        android:paddingBottom="26px"
+        android:paddingTop="26px"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/s_adapter_group_cbCheckGroup"
+        android:text="茅台集团"
+        android:textColor="#2a2a2a"
+        android:textSize="20px"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/s_adapter_group_tvEdit"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="20px"-->
+        <!--android:text="@string/edit"-->
+        <!--android:paddingBottom="26px"-->
+        <!--android:paddingTop="26px"-->
+        <!--android:textColor="#2a2a2a"-->
+        <!--android:textSize="20px"/>-->
+</RelativeLayout>

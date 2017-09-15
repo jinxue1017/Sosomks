@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="16px"
+    android:layout_width="match_parent"
+    android:layout_height="200px">
+
+    <CheckBox
+        android:id="@+id/item_ck"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="11px"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_toRightOf="@id/item_ck"
+        android:layout_width="140px"
+        android:layout_height="140px"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="30px"/>
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_toRightOf="@id/item_img"
+        android:paddingLeft="20px"
+        android:paddingTop="32px"
+        android:layout_width="match_parent"
+        android:layout_height="200px">
+        <TextView
+            android:id="@+id/item_title"
+            android:textSize="22px"
+            android:textColor="#2a2a2a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"/>
+        <TextView
+            android:id="@+id/item_msg"
+            android:textSize="20px"
+            android:textColor="#666666"
+            android:layout_below="@id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12px"/>
+        <TextView
+            android:id="@+id/item_price"
+            android:textSize="22px"
+            android:textColor="#bb0c0c"
+            android:layout_below="@id/item_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

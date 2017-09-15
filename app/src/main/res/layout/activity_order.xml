@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ssmk.module.shoppingcar.OrderActivity">
+
+    <include
+        android:id="@+id/top_include"
+        layout="@layout/top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/order_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlBottom"
+        android:layout_below="@+id/top_include"
+        ></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#eeeeee"
+            />
+
+        <TextView
+            android:id="@+id/should_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40px"
+            android:text="@string/should_money"
+            android:textColor="#2a2a2a"
+            android:textSize="28px"
+            />
+
+        <TextView
+            android:id="@+id/order_should_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/should_money"
+            android:text="￥16,36.00"
+            android:textColor="#2a2a2a"
+            android:textSize="28px"
+            />
+
+        <Button
+            android:id="@+id/btn_submit_order"
+            android:layout_width="244px"
+            android:layout_height="70px"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20px"
+            android:background="@drawable/shop_red_button"
+            android:text="提交订单"
+            android:textColor="#ffffff"
+            android:textSize="28px"
+            />
+    </RelativeLayout>
+</RelativeLayout>

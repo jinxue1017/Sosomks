@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_committed_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ssmk.module.shoppingcar.order.WaitSendActivity">
+    <include
+        android:id="@+id/top_include"
+        layout="@layout/top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/committeddetails_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_include"
+        android:layout_above="@+id/rlBottom"
+        ></android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/rlBottom"
+        android:layout_width="match_parent"
+        android:layout_height="115px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc"/>
+        <TextView
+            android:id="@+id/should_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="42px"
+            android:layout_marginLeft="40px"
+            android:text="@string/should_money"
+            android:textColor="#2a2a2a"
+            android:textSize="20px"/>
+
+        <TextView
+            android:id="@+id/orderdetails_should_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/should_money"
+            android:text="1,636.00"
+            android:textColor="#2a2a2a"
+            android:textSize="24px"/>
+
+        <Button
+            android:id="@+id/committeddetails_cheak_logistics"
+            android:layout_width="200px"
+            android:layout_height="70px"
+            android:layout_marginTop="21px"
+            android:layout_marginRight="12px"
+            android:background="@drawable/white_button"
+            android:layout_toLeftOf="@+id/committeddetails_refund"
+            android:text="@string/cheak_logistics"
+            android:textColor="#2a2a2a"
+            android:textSize="28px"/>
+
+        <Button
+            android:id="@+id/committeddetails_refund"
+            android:layout_width="200px"
+            android:layout_height="70px"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="21px"
+            android:layout_marginRight="20px"
+            android:background="@drawable/white_button"
+            android:text="@string/refund"
+            android:textColor="#2a2a2a"
+            android:textSize="28px"/>
+    </RelativeLayout>
+</RelativeLayout>

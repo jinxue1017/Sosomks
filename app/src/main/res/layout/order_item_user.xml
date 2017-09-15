@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="680px"
+        android:layout_height="200px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/dibu">
+
+        <TextView
+            android:id="@+id/order_user_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="50px"
+            android:text="收货人信息"
+            android:textColor="#2a2a2a"
+            android:textSize="26px"
+            />
+
+        <TextView
+            android:id="@+id/order_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_user_info"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:text="张三"
+            android:textColor="#2a2a2a"
+            android:textSize="24px"
+            />
+
+        <TextView
+            android:id="@+id/order_user_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_user_info"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="20px"
+            android:text="17600001234"
+            android:textColor="#2a2a2a"
+            android:textSize="24px"
+            />
+
+        <TextView
+            android:id="@+id/order_order_remain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/order_user_name"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="10px"
+            android:text="北京三里屯"
+            android:textColor="#2a2a2a"
+            android:textSize="24px"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/receiveline"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.2.6">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/b75ced7792027bdc910c7a7efaf20d2a7d8a3c19/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/b75ced7792027bdc910c7a7efaf20d2a7d8a3c19/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liaoinstan.springview/library/1.2.6/8a0dc669d28734d6d42e3d8c5558486988acf79c/library-1.2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

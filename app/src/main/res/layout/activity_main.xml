@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/TranslucentTheme"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:id="@+id/home_rg_bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_rb_home"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home_home_selector"
+            android:checked="true"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_rb_pinpai"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/home_pinpai_selector"
+            android:button="@null"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_rb_shoppingcar"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/home_shoppingcar_selector"
+            android:button="@null"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_rb_my"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/home_my_selector"
+            android:button="@null"/>
+        
+    </RadioGroup>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/intofra_fral"
+        android:layout_above="@id/home_rg_bottom"></FrameLayout>
+</RelativeLayout>

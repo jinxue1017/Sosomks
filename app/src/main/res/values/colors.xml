@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textcolor_black">#2a2a2a</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#999999</color>
+    <color name="trans">#000000</color>
+    <color name="black">#000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="xianshi">#6965f0</color>
+    <color name="yinc">#2a2a2a</color>
+    <color name="viewname">#eeeeee</color>
+    <color name="myhome_fragment_tx">#2a2a2a</color>
+    <color name="myhome_fragment_price">#cccccc</color>
+    <color name="viewba">#f7f7f7</color>
+    <color name="rebutton">#666666</color>
+    <color name="myhome_fragment_Grey">#999999</color>
+    <!--自定义recyclerview分割线-->
+    <color name="divider_gray">#f7f7f7</color>
+
+</resources>

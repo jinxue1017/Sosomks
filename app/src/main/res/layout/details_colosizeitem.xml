@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <CheckBox
+        android:id="@+id/popu_colosize_checkbox"
+        android:layout_width="100px"
+        android:layout_height="46px"
+        android:layout_marginTop="18px"
+        android:textSize="20px"
+        android:layout_marginLeft="32px"
+        android:textColor="@drawable/popu_text"
+        android:background="@drawable/pop_color"
+        android:gravity="center"
+        android:button="@null"
+        android:text="40"
+        />
+</LinearLayout>

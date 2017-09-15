@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <include
+        android:id="@+id/top_include"
+        layout="@layout/top_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </include>
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#CCC"/>
+
+    <ImageView
+        android:layout_width="223px"
+        android:layout_height="169px"
+        android:src="@drawable/emptyhistory"
+        android:layout_marginTop="242px"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_marginTop="24px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/network_failed"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="30px"/>
+
+    <Button
+        android:layout_width="256px"
+        android:layout_height="60px"
+        android:background="@drawable/orange_button"
+        android:text="@string/reload"
+        android:textColor="#ffffff"
+        android:textSize="30px"
+        android:layout_marginTop="38px"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

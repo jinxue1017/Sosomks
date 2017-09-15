@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="138px"
+        android:background="@drawable/dibu">
+
+        <RelativeLayout
+            android:id="@+id/relayout_yuandp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/logistics_info_yuandp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="18px"
+                android:src="@drawable/yuan_dq"
+                />
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="23px"
+                android:background="#e6bd5c"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relayout_yuan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/logistics_info_yuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16px"
+                android:layout_marginTop="18px"
+                android:src="@drawable/yuan"
+                />
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="23px"
+                android:background="#e6bd5c"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/logistics_info_site"
+            android:layout_width="wrap_content"
+            android:layout_height="26px"
+            android:layout_marginTop="36px"
+            android:layout_toRightOf="@+id/relayout_yuan"
+            android:layout_marginLeft="32px"
+            android:text="快递已从北京中转站发出"
+            android:textSize="26px"
+            android:textColor="#2a2a2a"
+            />
+        <TextView
+            android:id="@+id/logistics_info_time"
+            android:layout_width="wrap_content"
+            android:layout_height="26px"
+            android:layout_below="@+id/logistics_info_site"
+            android:layout_marginTop="14px"
+            android:layout_toRightOf="@+id/relayout_yuan"
+            android:layout_marginLeft="32px"
+            android:text="2017年7月9日 21:44"
+            android:textSize="26px"
+            android:textColor="#2a2a2a"
+            android:layout_marginBottom="36px"
+            />
+
+        <TextView
+            android:layout_width="590px"
+            android:layout_height="1px"
+            android:layout_toRightOf="@+id/relayout_yuan"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="680px"
+        android:layout_height="150px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/dibu">
+
+        <TextView
+            android:id="@+id/address_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="34px"
+            android:text="张三"
+            android:textColor="#2a2a2a"
+            android:textSize="24px"
+            />
+
+        <TextView
+            android:id="@+id/address_user_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/address_user_name"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="34px"
+            android:text="17600001234"
+            android:textColor="#2a2a2a"
+            android:textSize="24px"
+            />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/address_user_tel"
+            android:layout_marginLeft="71px"
+            android:layout_marginTop="34px"
+            android:background="#ff00ff">
+        <Button
+            android:layout_width="66px"
+            android:layout_height="28px"
+            android:background="@drawable/address_btn"
+            android:textColor="#ffffff"
+            android:text="默认"
+            android:textSize="24px"
+            />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/order_order_remain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address_user_name"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:text="北京三里屯"
+            android:textColor="#2a2a2a"
+            android:textSize="24px"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/receiveline"
+            />
+
+        <ImageView
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="61px"
+            android:layout_marginRight="20px"
+            android:src="@mipmap/ic_launcher"
+            />
+    </RelativeLayout>
+</RelativeLayout>
